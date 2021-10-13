@@ -7,9 +7,13 @@ This is a node.js application to generate professional README.md files with mark
 ## Table of Contents
 * [Installation](#installation)
 * [License](#license)
+* [Usage](#usage)
 
 ## Installation    
 To run this application, execute node.js in your command line from the root directory.
+
+## Usage
+![Gif demo of generator](readme-tutorial.gif)
 
 ## License
 MIT License
