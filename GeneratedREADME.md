@@ -1,21 +1,13 @@
-# My Project
-  ![Badge for GitHub repo](https://img.shields.io/github/languages/top/rjcostanzo/my-github-repository?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/rjcostanzo/my-github-repository?style=flat&logo=appveyor)
+# README.md Generator
+  ![Badge for GitHub repo](https://img.shields.io/github/languages/top/rjcostanzo/readmeGenerator?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/rjcostanzo/readmeGenerator?style=flat&logo=appveyor)
   
   ## Description   
-  Project Description## Table of Contents
+  This is a node.js application to generate professional README.md files with markdown for GitHub repositories.
+  ## Table of Contents
 * [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
   * [License](#license)
     ## Installation    
-    install tut
-  ## Usage 
-  usage
-  ## Contributing
-  contribution
-  ## Tests
-  tests
+    To run this application, execute node.js in your command line from the root directory.
   ## License
   MIT License
   ---

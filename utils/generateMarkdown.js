@@ -21,7 +21,8 @@ let draftMarkdown =
   ## Description   
   ${userResponses.description}`
 
-  draftMarkdown += draftToC;
+  draftMarkdown += `
+  ` + draftToC;
  
   draftMarkdown += `
   * [License](#license)`;
