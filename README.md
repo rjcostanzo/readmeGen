@@ -5,9 +5,9 @@
   This is a node.js application to generate professional README.md files with markdown for GitHub repositories.
   ## Table of Contents
 * [Installation](#installation)
-  * [License](#license)
-    ## Installation    
-    To run this application, execute node.js in your command line from the root directory.
+* [License](#license)
+## Installation    
+To run this application, execute node.js in your command line from the root directory.
   ## License
   MIT License
   ---
