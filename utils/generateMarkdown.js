@@ -25,64 +25,58 @@ let draftMarkdown =
   ` + draftToC;
  
   draftMarkdown += `
-  * [License](#license)`;
+[License](#license)`;
 
 if (userResponses.installation !== '') {
   
-  draftMarkdown +=
-    `
-    ## Installation    
-    ${userResponses.installation}`
+draftMarkdown += `
+## Installation    
+${userResponses.installation}`
 
-    };
+};
 
 if (userResponses.usage !== '') {
   
-  draftMarkdown +=
-  `
-  ## Usage 
-  ${userResponses.usage}`
+draftMarkdown +=
+`
+## Usage 
+${userResponses.usage}`
 
-  };
+};
 
 if (userResponses.contributing !== '') {
 
-  draftMarkdown +=
-  `
-  ## Contributing
-  ${userResponses.contributing}`
+draftMarkdown +=`
+## Contributing
+${userResponses.contributing}`
 
   };
 
 if (userResponses.tests !== '') {
   
-  draftMarkdown +=
-  `
-  ## Tests
-  ${userResponses.tests}`
+  draftMarkdown +=`
+## Tests
+${userResponses.tests}`
 
   };
   
-  draftMarkdown +=
-  `
-  ## License
-  ${userResponses.license}`;
+  draftMarkdown +=`
+## License
+${userResponses.license}`;
 
 let draftDev = 
-  `
-  ---
+`
+---
   
-  ## Questions? 
-  GitHub: [@${userInfo.login}](${userInfo.url})`;
+## Questions? 
+GitHub: [@${userInfo.login}](${userInfo.url})`;
 
 if (userInfo.email !== null) {
   
-    draftDev +=
-    `
+    draftDev +=`  
+Email: ${userInfo.email}
   
-    Email: ${userInfo.email}
-  
-    `};
+`};
 
   draftMarkdown += draftDev;
 
